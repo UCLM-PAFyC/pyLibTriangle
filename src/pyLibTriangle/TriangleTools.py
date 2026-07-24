@@ -9,7 +9,7 @@ from plyfile import PlyData, PlyElement
 import subprocess
 import sys
 
-TRIANGLE_EXTERNAL_TOOL_RELATIVE_PATH = "external_tools/triangle.exe"
+TRIANGLE_EXTERNAL_TOOL_RELATIVE_PATH = "/external_tools/triangle.exe"
 TRIANGLE_EXTERNAL_TOOL_DEFAULT_PARAMETERS = "-p -P -N -Q"
 
 class TriangleTools(object):
