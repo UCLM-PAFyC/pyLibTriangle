@@ -4,7 +4,7 @@
 import os
 from tempfile import NamedTemporaryFile
 import numpy as np
-# import triangle as tr
+
 from plyfile import PlyData, PlyElement
 import subprocess
 import sys
